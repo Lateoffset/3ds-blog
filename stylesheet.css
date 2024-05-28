@@ -1,27 +1,29 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+/* styles.css */
 
-header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.content {
+/* 追加されたセクションのスタイル */
+.additional-content {
   padding: 20px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
 }
 
-article {
-  margin-bottom: 20px;
+.additional-content h3 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
 }
 
+.additional-content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* フッターのスタイル */
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
   padding: 20px 0;
+  margin-top: 20px; /* 追加 */
 }
