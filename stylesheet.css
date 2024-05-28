@@ -31,5 +31,5 @@ footer {
 /* 必要な物の見出しのスタイル */
 article h2 {
   max-width: fit-content;
+  margin-right: 20px; /* 見出しの右側に余白を追加 */
 }
-
