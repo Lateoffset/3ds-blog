@@ -15,37 +15,16 @@ header {
   margin-top: 20px;
 }
 
-.additional-content h3 {
-  color: #333;
-  font-size: 24px;
-  margin-top: 0;
-}
-
-.additional-content p {
-  color: #666;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* リンクのスタイル */
-.additional-content a {
+.additional-content a.blue-link {
+  color: blue; /* 青色のリンク */
+  text-decoration: none; /* 下線を除去 */
   position: relative; /* 相対位置指定 */
-  display: inline-block; /* インラインブロック要素に変更 */
 }
 
-.additional-content a::before {
-  content: ""; /* 擬似要素を追加 */
+.additional-content a.blue-link::after {
+  content: "ダウンロードする"; /* リンクの上に表示するテキスト */
   position: absolute; /* 絶対位置指定 */
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1; /* テキストより上に配置 */
+  z-index: 1; /* テキストを前面に配置 */
 }
-
-.additional-content a h3 {
-  color: transparent; /* テキストを透明に */
-  position: relative; /* 相対位置指定 */
-  z-index: 2; /* テキストを前面に配置 */
-}
-
