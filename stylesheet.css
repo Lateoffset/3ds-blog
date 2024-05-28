@@ -27,17 +27,25 @@ header {
   line-height: 1.5;
 }
 
-/* フッターのスタイル */
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 20px; /* 追加 */
+/* リンクのスタイル */
+.additional-content a {
+  position: relative; /* 相対位置指定 */
+  display: inline-block; /* インラインブロック要素に変更 */
 }
 
-/* 必要な物の見出しのスタイル */
-article h2 {
-  max-width: fit-content;
-  margin-right: 20px; /* 見出しの右側に余白を追加 */
+.additional-content a::before {
+  content: ""; /* 擬似要素を追加 */
+  position: absolute; /* 絶対位置指定 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* テキストより上に配置 */
 }
+
+.additional-content a h3 {
+  color: transparent; /* テキストを透明に */
+  position: relative; /* 相対位置指定 */
+  z-index: 2; /* テキストを前面に配置 */
+}
+
