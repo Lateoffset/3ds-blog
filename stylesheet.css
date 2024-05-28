@@ -1,5 +1,13 @@
 /* styles.css */
 
+/* ヘッダーのスタイル */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center; /* テキストを中央揃え */
+  padding: 20px 0;
+}
+
 /* 追加されたセクションのスタイル */
 .additional-content {
   padding: 20px;
@@ -33,3 +41,4 @@ article h2 {
   max-width: fit-content;
   margin-right: 20px; /* 見出しの右側に余白を追加 */
 }
+
