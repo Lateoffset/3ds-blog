@@ -11,27 +11,27 @@ header {
 /* 追加されたセクションのスタイル */
 .additional-content {
   padding: 20px;
+  background-color: #f9f9f9;
   margin-top: 20px;
 }
 
-.additional-content a.blue-link {
-  color: blue; /* 青色のリンク */
-  text-decoration: none; /* 下線を除去 */
-  position: relative; /* 相対位置指定 */
+.additional-content h3 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
 }
 
-.additional-content a.blue-link::after {
-  content: "ダウンロードする"; /* リンクの上に表示するテキスト */
-  position: absolute; /* 絶対位置指定 */
-  top: 0;
-  left: 0;
-  z-index: 1; /* テキストを前面に配置 */
+.additional-content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.full-width-link {
-  display: block; /* ブロック要素にする */
-  width: 100%;    /* 幅を100%に設定 */
-  text-align: center; /* 中央揃えにする（オプション） */
-  padding: 10px;  /* パディングを追加（オプション） */
-  box-sizing: border-box; /* ボーダーやパディングを含めて幅を計算する */
+/* フッターのスタイル */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px; /* 追加 */
 }
