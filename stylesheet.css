@@ -56,7 +56,7 @@ footer {
 
 
 /* 写真のスタイル */
-.disp-img imgs {
+.disps-img img {
   display: block; /* インライン要素からブロック要素に変更 */
   max-width: 100%; /* 親要素内で最大幅まで拡大 */
   height: auto; /* アスペクト比を保持したまま高さを自動調整 */
