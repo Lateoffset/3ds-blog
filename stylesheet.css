@@ -22,14 +22,25 @@ header {
   position: relative;
 }
 
-.additional-content h3::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: -20px;
-  width: 20px;
-  height: 20px;
-  background-color: #ccc;
+.additional-content p {
+  margin-bottom: 20px; /* テキストの下に余白を追加 */
+}
+
+/* フッターのスタイル */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px; /* 追加 */
+}
+
+/* 写真のスタイル */
+.disp-img img {
+  display: block; /* インライン要素からブロック要素に変更 */
+  max-width: 100%; /* 親要素内で最大幅まで拡大 */
+  height: auto; /* アスペクト比を保持したまま高さを自動調整 */
+  margin-top: 20px; /* 写真の上に余白を追加 */
 }
 
 
