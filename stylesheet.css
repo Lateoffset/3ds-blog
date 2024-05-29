@@ -22,6 +22,16 @@ header {
   position: relative;
 }
 
+.additional-content h3::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -20px;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+}
+
 .additional-content p {
   margin-bottom: 20px; /* テキストの下に余白を追加 */
 }
@@ -41,6 +51,7 @@ footer {
   max-width: 100%; /* 親要素内で最大幅まで拡大 */
   height: auto; /* アスペクト比を保持したまま高さを自動調整 */
   margin-top: 20px; /* 写真の上に余白を追加 */
+  max-width: 100%; /* 画像が親要素内で最大幅に収まるようにする */
 }
 
 
