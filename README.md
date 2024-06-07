@@ -1,2 +1,1 @@
-plugins:
-  - jekyll-sitemap
+#3ds-blog
